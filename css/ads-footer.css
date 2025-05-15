@@ -1,0 +1,149 @@
+.realcashearning_ads_App {
+    position: fixed;
+    bottom: 0;
+    width: 7.5rem;
+    background: rgb(0 0 0/55%);
+    z-index: 1;
+    display: flex;
+}
+
+
+.realcashearning_ads_App-close {
+    width: 1.1rem;
+	height: .33rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: -.338rem;
+    background-color: #ffffff;
+	border: .01rem solid black;
+
+}
+
+.realcashearning_ads_App .realcashearning_ads_App-close span {
+    width: 4rem;
+	font-size: .25rem;
+    color: #000000;
+	font-weight: bold;
+	margin-left: .05rem;
+	cursor: pointer;
+	line-height: .26rem;
+}
+
+.realcashearning_ads_App .realcashearning_ads_App-close i{
+	font-size: .25rem;
+	float: left;
+    color: #000000;
+	margin-top: .01rem;
+	margin-left: .08rem;
+	line-height: .26rem;
+}
+
+.realcashearning_ads_App-content img{
+	width: 7.425rem;
+	height: auto;
+	background-color: #ffffff;
+	padding: .03rem .03rem;
+	border: 0.5px solid #000000;
+	border-radius: .05rem;
+}
+
+.WhatsApp_Follow a{
+	position: fixed;
+	cursor: pointer;
+	top:3.2rem;
+	right: 0;
+	width: 1.8rem;
+	height: 0.5rem;
+	background-image: url("/img/follow-whatsapp.webp");
+	background-size: 100% 100%;
+	z-index: 999;	
+}
+
+.Telegram_Follow a{
+	position: fixed;
+	cursor: pointer;
+	top:4rem;
+	right: 0;
+	width: 1.8rem;
+	height: 0.5rem;
+	background-image: url("/img/follow-telegram.webp");
+	background-size: 100% 100%;
+	z-index: 999;	
+}
+
+
+.telegram {
+    font-weight: bold;
+    background-color:#0088cc;
+    color: white;
+	height: 0.45rem;
+    font-size:.4rem;
+    text-align:center;
+    margin:.09rem;
+    border-radius:.1rem;
+    border:2px solid #000;
+}
+.telegram a{
+    color: white;
+}
+
+.telegram:hover{
+    background-color: #0057da;
+	color: #ebeaea;
+	-webkit-transform: scale(.99)
+
+}
+
+.join-telegram-content img{
+	width: 7.5rem;
+	height: auto;
+	background-color: #000000;
+	padding: .03rem .03rem;
+	border: 1px solid #ffffff;
+	border-radius: 0.09rem;
+}
+
+.allrummyapp_ads_App {
+    position: fixed;
+    bottom: 1.2rem;
+    width: 5.7.1rem;
+    z-index: 1;
+    display: flex;
+}
+
+
+.allrummyapp_ads_App-close {
+    width: 1.1rem;
+	height: .33rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: -.338rem;
+    background-color: #ffffff;
+	border: .01rem solid black;
+
+}
+
+.allrummyapp_App .allrummyapp_ads_App-close i{
+	font-size: .25rem;
+	float: left;
+    color: #000000;
+	margin-top: .01rem;
+	margin-left: .08rem;
+	line-height: .26rem;
+}
+
+.allrummyapp_ads_App-content img{
+	width: 4rem;
+	height: auto;
+	margin-left: 1.7rem;
+	background-color: #ffffff;
+	padding: .03rem .03rem;
+	border: 0.5px solid #000000;
+	border-radius: .05rem;
+}

@@ -1,0 +1,88 @@
+.rummyalllist-faq {
+    margin: .15rem
+}
+
+.rummyalllist-faq ol {
+    list-style: none;
+    counter-reset: item;
+    margin-left: .3rem
+}
+
+.rummyalllist-faq li {
+    counter-increment: item;
+    font-size: .28rem;
+    line-height: .45rem;
+    margin-right: .1rem
+}
+
+.rummyalllist-faq li:before {
+    content: counter(item);
+    margin-right: .1rem;
+    margin-left: -.4rem;
+    font-size: 80%;
+    font-weight: 700;
+    color: #fff;
+    background-color: #212121;
+    padding: 1px 4px;
+    border: .03rem #7b0f0f solid;
+    border-radius: .1rem
+}
+
+blockquote {
+    margin: .0001rem;
+    display: block;
+    background-color: hsla(0, 0%, 100%, 0.133)
+}
+
+blockquote h2 {
+    margin: .1rem 0 0;
+    font-size: .35rem;
+    font-weight: 700;
+    line-height: .45rem;
+    padding: .1rem;
+    border-left: blue .04rem solid;
+    border-right: blue .04rem solid;
+    color: #ce0202;
+    text-transform: capitalize
+}
+
+blockquote p {
+    font-size: .3rem;
+    line-height: .42rem;
+    padding: .1rem;
+    text-transform: capitalize
+}
+
+blockquote .rummynewapps_download_btn {
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+blockquote .rummynewapps-apk-icon {
+    position: absolute;
+    width: 10%;
+    height: .7rem;
+    margin-top: -.1rem;
+    margin-left: 42.5%;
+    border-radius: .2rem;
+    user-select: none;
+    border: #fff solid .04rem
+}
+
+blockquote .rummynewapps_landscape {
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: .25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%
+}

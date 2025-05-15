@@ -1,0 +1,121 @@
+html {
+    font-size: 100px
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ededed;
+    font-family: microsoft yahei
+}
+
+.container {
+    position: relative;
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #fff
+}
+
+.container .downNum {
+    position: absolute;
+    top: 45.7%;
+    right: 14%;
+    width: 40%;
+    height: 1rem;
+    font-size: .44rem;
+    text-align: center;
+    align-items: 1rem;
+    color: #fff
+}
+
+.recommended_apps {
+    margin-top: .1rem;
+    text-align: center;
+    font-size: .4rem;
+    background-color: #106c3b;
+    border: 1px solid #000;
+    padding: 8px 0;
+    font-weight: 700;
+    color: #fff;
+    border-radius: .1rem;
+    margin-bottom: .1rem
+}
+
+.Share_apps {
+    margin: .1rem;
+    text-align: center;
+    font-size: .4rem;
+    background-color: #3e0000;
+    border: 1px solid #000;
+    padding: 8px 0;
+    font-weight: 700;
+    color: #fff;
+    border-radius: .1rem;
+    border: 1px solid rgba(255,255,255,.448)
+}
+
+.Share_apps_border {
+    border: 1px dashed #3e0000;
+    background-color: #3e0000
+}
+
+.rummy-all-list-share-link {
+    text-align: center;
+    padding-bottom: .8rem;
+    padding-left: .1rem
+}
+
+.rummy-all-list-share-link span {
+    margin: .1rem;
+    padding: .1rem 0;
+    font-size: .3rem;
+    width: 30%;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    border: 1px dotted #d30000
+}
+
+.rummy-all-list-share-link span:hover {
+    opacity: .9;
+    -webkit-transform: scale(.98)
+}
+
+.rummy-all-list-share-link span:first-child {
+    float: left;
+    background-color: #08c;
+    border-radius: .05rem
+}
+
+.rummy-all-list-share-link span:nth-child(2) {
+    float: left;
+    background-color: #25d366;
+    border-radius: .05rem
+}
+
+.rummy-all-list-share-link span:nth-child(3) {
+    float: left;
+    background-color: #3b5998;
+    border-radius: .05rem
+}
+
+.menu {
+    margin-right: .2rem;
+    margin-top: .09rem;
+    font-weight: 600;
+    cursor: pointer
+}
+
+.menu:active {
+    opacity: .7
+}
+
+@keyframes rotate {
+    0%,100% {
+        transform: scale(1.2)
+    }
+
+    50% {
+        transform: scale(1)
+    }
+}
