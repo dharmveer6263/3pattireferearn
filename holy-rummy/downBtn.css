@@ -1,0 +1,11 @@
+.container .downBtn {
+    position: absolute;
+    cursor: pointer;
+    top: 12rem;
+    left: 15%;
+    width: 70%;
+    height: 1.1rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    animation: .6s linear infinite rotate
+}
